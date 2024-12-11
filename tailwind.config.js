@@ -13,7 +13,7 @@ module.exports = {
         accent: "#f0f0f0", // Blanc cassé
         textPrimary: "#ffffff", // Texte blanc
         textSecondary: "#000000", // Texte noir
-        "bleu-nuit": "#191970"
+        "bleu-nuit": "#0b132b"
       },
       fontFamily: {
         playfair: ["'Playfair Display'", "serif"], // Pour les titres
