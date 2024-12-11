@@ -15,8 +15,8 @@ module.exports = {
         textSecondary: "#000000", // Texte noir
       },
       fontFamily: {
-        serif: ["'Playfair Display'", "serif"], // Pour les titres
-        sans: ["'Poppins'", "sans-serif"], // Pour le corps
+        playfair: ["'Playfair Display'", "serif"], // Pour les titres
+        poppins: ["'Poppins'", "sans-serif"], // Pour le corps
       },
       borderRadius: {
         xl: "12px",

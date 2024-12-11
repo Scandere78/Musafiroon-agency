@@ -3,7 +3,18 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <header className='min-h-dvh bg-[url(/backgrounds/mecque.jpg)] bg-cover'></header>
+    <header className='min-h-[90vh] bg-[url(/backgrounds/mecque-3.png)] bg-cover bg-top relative'>
+      <div className='absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-tl to-[#00000083] from-transparent'></div>
+      <div>
+
+      </div>
+    </header>
+    <main className='min-h-[300px] flex items-center flex-wrap justify-center gap-[1px]'>
+      <div className='flex-basis-[300px] h-[300px] grow bg-green-900'></div>
+      <div className='flex-basis-[300px] h-[300px] grow bg-green-900'></div>
+      <div className='flex-basis-[300px] h-[300px] grow bg-orange-100'></div>
+
+    </main>
     </>
   )
 }
