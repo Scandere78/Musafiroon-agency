@@ -4,7 +4,7 @@ import { LinkNav } from "./LinkNav"
 
 export const Navbar = () => {
   return (
-    <nav className="flex gap-6 justify-between items-center px-8 bg-slate-600 text-white">
+    <nav className="flex gap-6 justify-between items-center px-8 bg-bleu-nuit text-white">
       <LinkNav lien={"/"}>
         <Image src={'/logo/logo.webp'}
           alt="logo musafiroon"

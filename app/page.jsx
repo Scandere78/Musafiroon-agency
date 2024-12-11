@@ -9,10 +9,10 @@ const Home = () => {
 
       </div>
     </header>
-    <main className='min-h-[300px] flex items-center flex-wrap justify-center gap-[1px]'>
-      <div className='flex-basis-[300px] h-[300px] grow bg-green-900'></div>
-      <div className='flex-basis-[300px] h-[300px] grow bg-green-900'></div>
-      <div className='flex-basis-[300px] h-[300px] grow bg-orange-100'></div>
+    <main className='min-h-[300px] flex flex-wrap justify-center gap-[1px]'>
+      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'></div>
+      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'></div>
+      <div className='flex-basis-[300px] h-[250px] grow bg-orange-100'></div>
 
     </main>
     </>
