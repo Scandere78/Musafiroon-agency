@@ -3,11 +3,12 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Home = () => {
   return (
     <>
-    <header className='min-h-[35vh] bg-[url(/backgrounds/mecque-3.png)] bg-cover bg-top relative z-10'>
+    <header className='min-h-[35vh] bg-[url(/backgrounds/mecque-3.png)] bg-cover relative z-10 bg-center'>
       <div className='absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-tl to-[#00000083] from-transparent -z-10'></div>
       <div className='max-w-[900px] m-auto py-12'>
         <span className='text-white text-center block mt-8 font-playfair'>VOTRE CHEMIN POUR L'AVENIR</span>
@@ -60,9 +61,21 @@ const Home = () => {
       </div>
     </header>
     <main className='min-h-[300px] flex flex-wrap justify-center gap-[1px]'>
-      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'></div>
-      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'></div>
-      <div className='flex-basis-[300px] h-[250px] grow bg-orange-100'></div>
+      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
+        <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
+        <p></p>
+        <Link hrek="/">Visa Arabi-Saoudite</Link>
+      </div>
+      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
+      <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
+      <p></p>
+      <Link href="/">Visa Arabi-Saoudite</Link>
+      </div>
+      <div className='flex-basis-[300px] h-[250px] grow bg-orange-100'>
+      <h3></h3>
+      <p></p>
+      <Link href="/">Visa Arabi-Saoudite</Link>
+      </div>
 
     </main>
     </>
