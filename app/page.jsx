@@ -64,7 +64,7 @@ const Home = () => {
       <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
         <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
         <p></p>
-        <Link hrek="/">Visa Arabi-Saoudite</Link>
+        <Link href="/">Visa Arabi-Saoudite</Link>
       </div>
       <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
       <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
