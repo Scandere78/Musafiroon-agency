@@ -15,10 +15,9 @@ module.exports = {
         textSecondary: "#000000", // Texte noir
         "bleu-nuit": "#0b132b"
       },
-      fontFamily: {
-        playfair: ["'Playfair Display'", "serif"], // Pour les titres
-        poppins: ["'Poppins'", "sans-serif"], // Pour le corps
-      },
+      // fontFamily: {
+      //   montserrat: ["Montserrat", "sans-serif"], // Pour les titres
+      // },
       borderRadius: {
         xl: "12px",
         lg: "8px",

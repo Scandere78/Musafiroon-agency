@@ -8,10 +8,10 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <>
-    <header className='min-h-[35vh] bg-[url(/backgrounds/mecque-3.png)] bg-cover relative z-10 bg-center'>
+    <header className='min-h-[70vh] bg-[url(/backgrounds/mecque-3.png)] bg-cover relative z-10 bg-center'>
       <div className='absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-tl to-[#00000083] from-transparent -z-10'></div>
       <div className='max-w-[900px] m-auto py-12'>
-        <span className='text-white text-center block mt-8 font-playfair'>VOTRE CHEMIN POUR L'AVENIR</span>
+        <span className='text-white text-center block mt-24 font-playfair'>VOTRE CHEMIN POUR L'AVENIR</span>
         <h1 className='text-white text-5xl text-center m-auto font-playfair mt-6'>Votre Expérience Omra, Réinventée et Personnalisée</h1>
         <p className='text-white texte-center mt-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quam ullam eligendi reprehenderit itaque magni dolorum quisquam repellendus quaerat numquam, quas obcaecati, dolore cum molestias nostrum quo ex debitis a!</p>
       <div className='flex items-center justify-center gap-4 mt-8'>
@@ -61,19 +61,19 @@ const Home = () => {
       </div>
     </header>
     <main className='min-h-[300px] flex flex-wrap justify-center gap-[1px]'>
-      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
-        <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
-        <p></p>
+      <div className='basis-[300px] p-8 h-[250px] grow  bg-bleu-nuit'>
+        <h3 className='text-white font-playfair m-8 text-xl'>Lorem ipsum dolor sit amet consectetur</h3>
+        <p className='text-white text-xs font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ab optio vero nesciunt odit fugit iure, iusto, ad animi tempore</p>
         <Link href="/">Visa Arabi-Saoudite</Link>
       </div>
-      <div className='flex-basis-[300px] h-[250px] grow  bg-bleu-nuit'>
-      <h3 className='text-white'>Lorem ipsum dolor sit amet consectetur</h3>
-      <p></p>
+      <div className='basis-[300px] p-8 h-[250px] grow  bg-bleu-nuit'>
+      <h3 className='text-white font-playfair m-8 text-xl'>Lorem ipsum dolor sit amet consectetur</h3>
+      <p className='text-white text-xs font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ab optio vero nesciunt odit fugit iure, iusto, ad animi tempore</p>
       <Link href="/">Visa Arabi-Saoudite</Link>
       </div>
-      <div className='flex-basis-[300px] h-[250px] grow bg-orange-100'>
-      <h3></h3>
-      <p></p>
+      <div className='basis-[300px] p-8 h-[250px] grow bg-orange-100'>
+      <h3 className='text-black font-playfair m-8 text-xl'>Lorem ipsum dolor sit amet consectetur</h3>
+      <p className='text-black text-xs font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ab optio vero nesciunt odit fugit iure, iusto, ad animi tempore</p>
       <Link href="/">Visa Arabi-Saoudite</Link>
       </div>
 
